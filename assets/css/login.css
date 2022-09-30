@@ -1,0 +1,111 @@
+#login-sec {
+    height: 100vh;
+}
+
+
+.logo-head {
+    width: 150px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.logo-head img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.login-form {
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    padding: 55px;
+    margin-top: 43px;
+}
+
+.heading-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 57px;
+    position: relative;
+}
+
+/* .login-btn::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: -18px;
+    left: 0;
+    background: #ababab;
+} */
+
+.login-form form label {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-form form input {
+    padding: 12px;
+    border-radius: 57px;
+}
+
+.social {
+    padding: 12px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    border-radius: 57px;
+    width: 100%;
+}
+
+.social.focus,
+.social:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.btn-white img {
+    float: left;
+}
+
+.divider-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider-con span {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divider {
+    width: 45%;
+    height: 1px;
+    background: #ababab;
+    margin: 20px 0;
+}
+
+
+.links {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.acc{
+    color: #3F90FC;
+    cursor: pointer;
+}

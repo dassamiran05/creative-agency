@@ -77,11 +77,12 @@ body {
 
 .login {
     width: 134px;
-    height: 53px;
+    /* height: 53px; */
     background-color: #111430;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    padding: 12px 0;
     font-size: 14px;
 }
 
