@@ -26,7 +26,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #000000;
     cursor: pointer;
@@ -95,115 +95,7 @@
     margin-top: 20px;
 }
 
-.form-btn {
-    width: 134px;
-    height: 53px;
-    background-color: #111430;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 0.25rem;
-}
 
-.order-form input,
-.order-form select,
-.upload_cu {
-    height: 48px !important;
-    /* padding: 15px 14px; */
-}
-
-.order-form input,
-.order-form select {
-    outline: none;
-    border: none;
-}
-
-.order-form textarea {
-    outline: none;
-    border: none;
-}
-
-
-/* .order-form select {
-    padding: 15px 14px;
-} */
-
-/* .order-form label{
-    display: none;
-} */
-
-
-.order-form input::placeholder {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    letter-spacing: 0.396px;
-
-    color: rgba(0, 0, 0, 0.3);
-}
-
-
-.order-form textarea::placeholder {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    letter-spacing: 0.396px;
-
-    color: rgba(0, 0, 0, 0.3);
-}
-
-.upload_cu {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background: #DEFFED;
-    border: 1px solid #009444;
-    padding: 10px;
-}
-
-.upload_cu span {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.upload_cu input {
-    opacity: 0;
-    position: absolute;
-}
-
-.order-form select option {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    letter-spacing: 0.396px;
-
-    color: rgba(0, 0, 0, 0.3);
-}
-
-@media(max-width: 991px) {
-    .order-form {
-        width: 100% !important;
-    }
-}
 
 
 .single-service {
@@ -252,12 +144,167 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
-.image-status .pending{
-    padding: 10px 16px;background-color: #FFE3E3;color: #FF4545;font-family: 'Poppins';
+.image-status .pending {
+    padding: 10px 16px;
+    background-color: #FFE3E3;
+    color: #FF4545;
+    font-family: 'Poppins';
     font-style: normal;
 }
 
-.image-status .done{
-    padding: 10px 16px;background-color: #C6FFE0;color: #009444;font-family: 'Poppins';
+.image-status .done {
+    padding: 10px 16px;
+    background-color: #C6FFE0;
+    color: #009444;
+    font-family: 'Poppins';
     font-style: normal;
+}
+
+table th {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+table td {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+
+
+.service-add-form .form-btn {
+    width: 108px;
+    height: 48px;
+    background-color: #009444;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+.service-add-form input,
+.service-add-form select,
+.upload_cu {
+    height: 48px !important;
+    /* padding: 15px 14px; */
+}
+
+.service-add-form input,
+.service-add-form select {
+    outline: none;
+    border: none;
+}
+
+.service-add-form textarea {
+    outline: none;
+    border: none;
+}
+
+
+/* .service-add-form select {
+    padding: 15px 14px;
+} */
+
+/* .service-add-form label{
+    display: none;
+} */
+.service-add-form input, .make-admin input {
+    background: #FFFFFF;
+    border: 0.666667px solid #C9C9C9;
+    border-radius: 3.33333px;
+}
+
+
+
+.service-add-form label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.service-add-form input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.396px;
+
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+.service-add-form textarea::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.396px;
+
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.upload_cu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #DEFFED;
+    border: 1px solid #009444;
+    padding: 10px;
+}
+
+.upload_cu span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.upload_cu input {
+    opacity: 0;
+    position: absolute;
+}
+
+.service-add-form select option {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.396px;
+
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width: 991px) {
+    .service-add-form {
+        width: 100% !important;
+    }
 }
